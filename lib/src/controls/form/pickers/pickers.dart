@@ -116,7 +116,7 @@ class YesNoPickerControl extends StatelessWidget {
             child: Button(
               onPressed: onChanged,
               style: buttonStyle,
-              child: const Icon(FluentIcons.check_mark),
+              child: Icon(FluentIcons.check_mark, color: Colors.green, size: 15, weight: 700),
             ),
           ),
         ),
